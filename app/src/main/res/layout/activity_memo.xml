@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".calendar.MemoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/memo_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#000000" />
+
+    <EditText
+        android:id="@+id/Title_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:hint="제목을 입력하세요..."
+        android:inputType="textPersonName" />
+
+    <ScrollView
+        android:id="@+id/EditScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/Content_Edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="#00FFFFFF"
+            android:gravity="start"
+            android:hint="여행 일정을 입력하세요..."
+            android:inputType="textMultiLine" />
+
+    </ScrollView>
+
+</LinearLayout>

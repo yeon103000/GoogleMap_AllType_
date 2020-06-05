@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">부산여행</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_calendar">Calendar</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- 홈 아이콘 -->
+    <string name="icon_Hospital">병원</string>
+    <string name="icon_Parking">공공주차장</string>
+    <string name="icon_Bus">버스</string>
+    <string name="icon_Disabledperson">장애인 편의시설</string>
+    <string name="icon_Food">모범음식점</string>
+    <string name="icon_Storytelling">스토리텔링</string>
+    <string name="icon_Map">지도</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
